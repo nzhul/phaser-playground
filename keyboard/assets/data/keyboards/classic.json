@@ -1,0 +1,44 @@
+[
+	{
+		"symbol": "`",
+		"uSymbol": "~",
+		"title": "Grave accent",
+		"uTitle": "Tilde",
+		"code": 192,
+		"uCode": 126,
+		"type": "regular",
+		"width": 1,
+		"position": {
+			"row": 0,
+			"col": 0
+		}
+	},
+	{
+		"symbol": "1",
+		"uSymbol": "!",
+		"title": "One",
+		"uTitle": "Exclamation mark",
+		"code": 49,
+		"uCode": 32,
+		"type": "regular",
+		"width": 1,
+		"position": {
+			"row": 0,
+			"col": 1
+		}
+	},
+		{
+		"symbol": "2",
+		"uSymbol": "@",
+		"title": "Two",
+		"uTitle": "At symbol",
+		"code": 50,
+		"uCode": 64,
+		"type": "regular",
+		"width": 1,
+		"position": {
+			"row": 0,
+			"col": 2
+		}
+	}
+]

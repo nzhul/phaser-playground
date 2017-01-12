@@ -12,6 +12,7 @@ define([], function () {
                 this.load.setPreloadSprite(this.preloadBar);
 
                 this.game.load.image('button', 'assets/images/button.png');
+                this.game.load.json('classickeyboard', 'assets/data/keyboards/classic.json');
 
                 // Load images, sounds, tilesets and everything else for the game
                 //this.game.load.image('bird', 'assets/images/gruhcho.png');

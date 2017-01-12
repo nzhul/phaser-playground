@@ -8,8 +8,11 @@ define([], function () {
         GameState.prototype = {
             create: function () {
                 console.log('GameState');
-                debugger;
-                var button = this.game.add.button(50,50,'button', this.actionOnClick, this, 2, 1, 0);
+                var keyboardData =  this.game.cache.getJSON('classickeyboard');
+                this.renderKeyboard(keyboardData);
+
+                
+                // var button = this.game.add.button(50,50,'button', this.actionOnClick, this, 2, 1, 0);
             },
             update: function () {
 
@@ -19,6 +22,11 @@ define([], function () {
             },
             actionOnClick: function(){
                 console.log('buttonClicked');
+            },
+            renderKeyboard: function(keyboardData){
+                for(i = 0; i < keyboardData.length; i++){
+                    console.log(keyboardData[i]);
+                }
             }
         };
 
